@@ -28,5 +28,5 @@ jobs:
 
       - name: Publish
         env:
-            NUGET_TOKEN: ${{ secrets.NUGET_TOKEN }}
+          NUGET_TOKEN: ${{ secrets.NUGET_TOKEN }}
         run: dotnet nuget push "MoneyExtension/bin/Release/*.nupkg" -k $NUGET_TOKEN -s https://api.nuget.org/v3/index.json
