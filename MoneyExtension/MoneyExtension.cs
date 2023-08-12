@@ -7,14 +7,14 @@ public static class Money
         if (amount <= 0)
             return 0;
 
-        var text = amount
+        var convertedText = amount
             .ToString("N2")
             .Replace(",", "")
             .Replace(".", "");
-        if (string.IsNullOrEmpty(text))
+        if (string.IsNullOrEmpty(convertedText))
             return 0;
 
-        int.TryParse(text, out var result);
+        int.TryParse(convertedText, out var result);
         return result;
     }
 }
