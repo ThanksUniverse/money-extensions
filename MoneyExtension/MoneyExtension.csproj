@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>MoneyExtension333</PackageId>
+    <PackageId>Alt0b11Extensions</PackageId>
     <Version>1.0.0</Version>
     <License>MIT</License>
     <Authors>Alt0b11</Authors>
@@ -16,8 +16,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>money;int;decimal;converter</PackageTags>
-    <Title>MoneyExtension333</Title>
-    <Summary>Extension to convert decimal do integer</Summary>
+    <Title>Alt0b11Extensions</Title>
+    <Summary>Extension to convert decimal to a integer</Summary>
   </PropertyGroup>
 
   <ItemGroup>
